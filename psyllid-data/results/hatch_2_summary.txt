@@ -1,0 +1,35 @@
+Generalized linear mixed model fit by maximum likelihood (Adaptive Gauss-Hermite Quadrature, nAGQ = 25) [glmerMod
+]
+ Family: binomial  ( logit )
+Formula: hatch ~ germ + (1 | psyllid)
+   Data: fcnd_hatch
+Weights: hatch
+Control: glmerControl(optimizer = "optimx", optCtrl = list(method = "bobyqa",      dowarn = T))
+
+     AIC      BIC   logLik deviance df.resid 
+    17.6     28.6     -3.8      7.6       61 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-0.5629 -0.3120 -0.0347  0.1537  0.6257 
+
+Random effects:
+ Groups  Name        Variance Std.Dev.
+ psyllid (Intercept) 0        0       
+Number of obs: 66, groups:  psyllid, 66
+
+Fixed effects:
+            Estimate Std. Error z value Pr(>|z|)
+(Intercept)   0.6815     0.6522   1.045    0.296
+germ3LB       0.5178     1.1248   0.460    0.645
+germ4LB       0.2605     0.9433   0.276    0.782
+germRB        0.3248     1.0629   0.306    0.760
+
+Correlation of Fixed Effects:
+        (Intr) grm3LB grm4LB
+germ3LB -0.580              
+germ4LB -0.691  0.401       
+germRB  -0.614  0.356  0.424
+convergence code: 0
+singular fit
+

@@ -1,0 +1,512 @@
+coord_cartesian(ylim = c(0, 25)) +
+geom_errorbar(
+aes(
+x = Period,
+ymin = Egg_Mean - Egg_SEM,
+ymax = Egg_Mean + Egg_SEM
+),
+size = 0.5,
+position = position_dodge(0.2)
+) +
+theme(legend.position = c(0.15, 0.8))
+egg_grph
+#making a graph
+egg_grph <-
+ggplot(
+fcnd_grph,
+aes(
+color = Germplasm,
+x = Period,
+y = Egg_Mean,
+ymin = Egg_Mean - Egg_SEM,
+ymax = Egg_Mean + Egg_SEM
+)
+) +
+geom_line(aes(group = Germplasm), size = 1.5) +
+geom_point(size = 4) +
+theme_bw() +
+xlab("Plant Transfer") +
+ylab("Mean Number of Eggs") +
+scale_color_viridis(
+begin = 1,
+end = 0,
+option = "E",
+discrete = T
+) +
+scale_x_discrete(labels = c("0", "1", "2", "3")) +
+coord_cartesian(ylim = c(0, 25)) +
+geom_errorbar(
+aes(
+x = Period,
+ymin = Egg_Mean - Egg_SEM,
+ymax = Egg_Mean + Egg_SEM
+),
+size = 0.5,
+position = position_dodge(0.2)
+) +
+theme(legend.position = c(0.15, 0.8)) +
+facet_wrap(Germplasm)
+#making a graph
+egg_grph <-
+ggplot(
+fcnd_grph,
+aes(
+color = Germplasm,
+group = Germplasm,
+x = Period,
+y = Egg_Mean,
+ymin = Egg_Mean - Egg_SEM,
+ymax = Egg_Mean + Egg_SEM
+)
+) +
+geom_line(aes(group = Germplasm), size = 1.5) +
+geom_point(size = 4) +
+theme_bw() +
+xlab("Plant Transfer") +
+ylab("Mean Number of Eggs") +
+scale_color_viridis(
+begin = 1,
+end = 0,
+option = "E",
+discrete = T
+) +
+scale_x_discrete(labels = c("0", "1", "2", "3")) +
+coord_cartesian(ylim = c(0, 25)) +
+geom_errorbar(
+aes(
+x = Period,
+ymin = Egg_Mean - Egg_SEM,
+ymax = Egg_Mean + Egg_SEM
+),
+size = 0.5,
+position = position_dodge(0.2)
+) +
+theme(legend.position = c(0.15, 0.8)) +
+facet_wrap()
+#making a graph
+egg_grph <-
+ggplot(
+fcnd_grph,
+aes(
+color = Germplasm,
+group = Germplasm,
+x = Period,
+y = Egg_Mean,
+ymin = Egg_Mean - Egg_SEM,
+ymax = Egg_Mean + Egg_SEM
+)
+) +
+geom_line(aes(group = Germplasm), size = 1.5) +
+geom_point(size = 4) +
+theme_bw() +
+xlab("Plant Transfer") +
+ylab("Mean Number of Eggs") +
+scale_color_viridis(
+begin = 1,
+end = 0,
+option = "E",
+discrete = T
+) +
+scale_x_discrete(labels = c("0", "1", "2", "3")) +
+coord_cartesian(ylim = c(0, 25)) +
+geom_errorbar(
+aes(
+x = Period,
+ymin = Egg_Mean - Egg_SEM,
+ymax = Egg_Mean + Egg_SEM
+),
+size = 0.5,
+position = position_dodge(0.2)
+) +
+theme(legend.position = c(0.15, 0.8)) +
+facet_wrap(group)
+egg_grph
+?facet_wrap
+#making a graph
+egg_grph <-
+ggplot(
+fcnd_grph,
+aes(
+color = Germplasm,
+group = Germplasm,
+x = Period,
+y = Egg_Mean,
+ymin = Egg_Mean - Egg_SEM,
+ymax = Egg_Mean + Egg_SEM
+)
+) +
+geom_line(aes(group = Germplasm), size = 1.5) +
+geom_point(size = 4) +
+theme_bw() +
+xlab("Plant Transfer") +
+ylab("Mean Number of Eggs") +
+scale_color_viridis(
+begin = 1,
+end = 0,
+option = "E",
+discrete = T
+) +
+scale_x_discrete(labels = c("0", "1", "2", "3")) +
+coord_cartesian(ylim = c(0, 25)) +
+geom_errorbar(
+aes(
+x = Period,
+ymin = Egg_Mean - Egg_SEM,
+ymax = Egg_Mean + Egg_SEM
+),
+size = 0.5,
+position = position_dodge(0.2)
+) +
+theme(legend.position = c(0.15, 0.8)) +
+facet_wrap(~group)
+egg_grph
+#making a graph
+egg_grph <-
+ggplot(
+fcnd_grph,
+aes(
+color = Germplasm,
+group = Germplasm,
+x = Period,
+y = Egg_Mean,
+ymin = Egg_Mean - Egg_SEM,
+ymax = Egg_Mean + Egg_SEM
+)
+) +
+geom_line(aes(group = Germplasm), size = 1.5) +
+geom_point(size = 4) +
+theme_bw() +
+xlab("Plant Transfer") +
+ylab("Mean Number of Eggs") +
+scale_color_viridis(
+begin = 1,
+end = 0,
+option = "E",
+discrete = T
+) +
+scale_x_discrete(labels = c("0", "1", "2", "3")) +
+coord_cartesian(ylim = c(0, 25)) +
+geom_errorbar(
+aes(
+x = Period,
+ymin = Egg_Mean - Egg_SEM,
+ymax = Egg_Mean + Egg_SEM
+),
+size = 0.5,
+position = position_dodge(0.2)
+) +
+theme(legend.position = c(0.15, 0.8)) +
+facet_wrap(~Germplasm)
+egg_grph
+ggsave(
+"x_egg_graph_3.jpg",
+plot = last_plot(),
+device = "jpg",
+width = 6,
+height = 5,
+units = "in",
+scale = 1,
+dpi = 300,
+limitsize = TRUE,
+path = "figures"
+)
+theme(legend.position = 'right' +
+egg_grph
+#making a graph
+egg_grph <-
+ggplot(
+fcnd_grph,
+aes(
+color = Germplasm,
+group = Germplasm,
+x = Period,
+y = Egg_Mean,
+ymin = Egg_Mean - Egg_SEM,
+ymax = Egg_Mean + Egg_SEM
+)
+) +
+geom_line(aes(group = Germplasm), size = 1.5) +
+geom_point(size = 4) +
+theme_bw() +
+xlab("Plant Transfer") +
+ylab("Mean Number of Eggs") +
+scale_color_viridis(
+begin = 1,
+end = 0,
+option = "E",
+discrete = T
+) +
+scale_x_discrete(labels = c("0", "1", "2", "3")) +
+coord_cartesian(ylim = c(0, 25)) +
+geom_errorbar(
+aes(
+x = Period,
+ymin = Egg_Mean - Egg_SEM,
+ymax = Egg_Mean + Egg_SEM
+),
+size = 0.5,
+position = position_dodge(0.2)
+) +
+theme(legend.position = 'right') +
+facet_wrap(~Germplasm)
+egg_grph
+ggsave(
+"x_egg_graph_3.jpg",
+plot = last_plot(),
+device = "jpg",
+width = 6,
+height = 5,
+units = "in",
+scale = 1,
+dpi = 300,
+limitsize = TRUE,
+path = "figures"
+)
+#making a graph
+egg_grph <-
+ggplot(
+fcnd_grph,
+aes(
+color = Germplasm,
+group = Germplasm,
+x = Period,
+y = Egg_Mean,
+ymin = Egg_Mean - Egg_SEM,
+ymax = Egg_Mean + Egg_SEM
+)
+) +
+geom_line(aes(group = Germplasm), size = 1.5) +
+geom_point(size = 4) +
+theme_bw() +
+xlab("Plant Transfer") +
+ylab("Mean Number of Eggs") +
+scale_color_viridis(
+begin = 1,
+end = 0,
+option = "E",
+discrete = T
+) +
+scale_x_discrete(labels = c("0", "1", "2", "3")) +
+coord_cartesian(ylim = c(0, 25)) +
+geom_errorbar(
+aes(
+x = Period,
+ymin = Egg_Mean - Egg_SEM,
+ymax = Egg_Mean + Egg_SEM
+),
+size = 0.5,
+position = position_dodge(0.2)
+) +
+theme(legend.position = 'right') +
+facet_wrap(~Germplasm)
+egg_grph
+ggsave(
+"x_egg_graph_3.jpg",
+plot = last_plot(),
+device = "jpg",
+width = 6,
+height = 5,
+units = "in",
+scale = 1,
+dpi = 300,
+limitsize = TRUE,
+path = "figures"
+)
+#making a graph
+egg_grph <-
+ggplot(
+fcnd_grph,
+aes(
+color = Germplasm,
+group = Germplasm,
+x = Period,
+y = Egg_Mean,
+ymin = Egg_Mean - Egg_SEM,
+ymax = Egg_Mean + Egg_SEM
+)
+) +
+geom_line(aes(group = Germplasm), size = 1.5) +
+geom_point(size = 4) +
+theme_bw() +
+xlab("Plant Transfer") +
+ylab("Mean Number of Eggs") +
+scale_color_viridis(
+begin = 1,
+end = 0,
+option = "E",
+discrete = T
+) +
+scale_x_discrete(labels = c("0", "1", "2", "3")) +
+coord_cartesian(ylim = c(0, 25)) +
+geom_errorbar(
+aes(
+x = Period,
+ymin = Egg_Mean - Egg_SEM,
+ymax = Egg_Mean + Egg_SEM
+),
+size = 0.5,
+position = position_dodge(0.2)
+) +
+theme(legend.position = "none") +
+facet_wrap(~Germplasm)
+egg_grph
+ggsave(
+"x_egg_graph_3.jpg",
+plot = last_plot(),
+device = "jpg",
+width = 6,
+height = 5,
+units = "in",
+scale = 1,
+dpi = 300,
+limitsize = TRUE,
+path = "figures"
+)
+####GRAPH OF NYMPH DATA####
+nym_grph <-
+ggplot(
+fcnd_grph,
+aes(
+color = Germplasm,
+group = Germplasm,
+x = Period,
+y = Nymph_Mean,
+ymin = Nymph_Mean - Nymph_SEM,
+ymax = Nymph_Mean + Nymph_SEM
+)
+) +
+geom_line(aes(group = Germplasm), size = 1.5) +
+geom_point(size = 4) +
+theme_bw() +
+xlab("Plant Transfer") +
+ylab("Mean Number of Nymphs") +
+scale_color_viridis(
+begin = 1,
+end = 0,
+option = "E",
+discrete = T
+) +
+scale_x_discrete(labels = c("0", "1", "2", "3")) +
+coord_cartesian(ylim = c(0, 25)) +
+geom_errorbar(
+aes(
+x = Period,
+ymin = Nymph_Mean - Nymph_SEM,
+ymax = Nymph_Mean + Nymph_SEM
+),
+size = 0.5,
+position = position_dodge(0.2)
+) +
+theme(legend.position = "none")+
+facet_wrap(~Germplasm)
+nym_grph
+ggsave(
+"x_nymph_graph_3.jpg",
+plot = last_plot(),
+device = "jpg",
+width = 6,
+height = 5,
+units = "in",
+scale = 1,
+dpi = 300,
+limitsize = TRUE,
+path = "figures"
+)
+####GRAPH OF HATCH DATA####
+hatch_grph <-
+ggplot(
+fcnd_grph,
+aes(
+color = Germplasm,
+group = Germplasm,
+x = Period,
+y = Hatch_Percent,
+ymin = Hatch_Percent - Hatch_SEM,
+ymax = Hatch_Percent + Hatch_SEM
+)
+) +
+geom_line(aes(group = Germplasm), size = 1.5) +
+geom_point(size = 4) +
+theme_bw() +
+xlab("Plant Transfer") +
+ylab("Percentage Hatched") +
+scale_color_viridis(
+begin = 1,
+end = 0,
+option = "E",
+discrete = T
+) +
+scale_x_discrete(labels = c("0", "1", "2", "3")) +
+coord_cartesian(ylim = c(0, 150)) + geom_errorbar(
+aes(
+x = Period,
+ymin = Hatch_Percent - Hatch_SEM,
+ymax = Hatch_Percent + Hatch_SEM
+),
+size = 0.5,
+position = position_dodge(0.2)
+) +
+theme(legend.position = "none")+
+facet_wrap(~Germplasm)
+hatch_grph
+ggsave(
+"x_hatch_graph_3.jpg",
+plot = last_plot(),
+device = "jpg",
+width = 6,
+height = 5,
+units = "in",
+scale = 1,
+dpi = 300,
+limitsize = TRUE,
+path = "figures"
+)
+####GRAPH OF HATCH DATA####
+hatch_grph <-
+ggplot(
+fcnd_grph,
+aes(
+color = Germplasm,
+group = Germplasm,
+x = Period,
+y = Hatch_Percent,
+ymin = Hatch_Percent - Hatch_SEM,
+ymax = Hatch_Percent + Hatch_SEM
+)
+) +
+geom_line(aes(group = Germplasm), size = 1.5) +
+geom_point(size = 4) +
+theme_bw() +
+xlab("Plant Transfer") +
+ylab("Percentage Hatched") +
+scale_color_viridis(
+begin = 1,
+end = 0,
+option = "E",
+discrete = T
+) +
+scale_x_discrete(labels = c("0", "1", "2", "3")) +
+coord_cartesian(ylim = c(0, 150)) + geom_errorbar(
+aes(
+x = Period,
+ymin = Hatch_Percent - Hatch_SEM,
+ymax = Hatch_Percent + Hatch_SEM
+),
+size = 0.5,
+position = position_dodge(0.2)
+) +
+theme(legend.position = "none")+
+facet_wrap(~Germplasm)
+hatch_grph
+ggsave(
+"x_hatch_graph_3.jpg",
+plot = last_plot(),
+device = "jpg",
+width = 6,
+height = 5,
+units = "in",
+scale = 1,
+dpi = 300,
+limitsize = TRUE,
+path = "figures"
+)

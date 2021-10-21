@@ -1,0 +1,26 @@
+$emmeans
+ germ    emmean        SE  df  asymp.LCL asymp.UCL .group
+ 10LB 0.6814852 0.6522093 Inf -0.9431129  2.306083  a    
+ 4LB  0.9419655 0.6814627 Inf -0.7555002  2.639431  a    
+ RB   1.0062877 0.8392371 Inf -1.0841807  3.096756  a    
+ 3LB  1.1993170 0.9164162 Inf -1.0833981  3.482032  a    
+
+Results are given on the logit (not the response) scale. 
+Confidence level used: 0.95 
+Conf-level adjustment: sidak method for 4 estimates 
+Results are given on the log odds ratio (not the response) scale. 
+P value adjustment: tukey method for comparing a family of 4 estimates 
+significance level used: alpha = 0.05 
+
+$comparisons
+ contrast     estimate        SE  df z.ratio p.value
+ 4LB - 10LB 0.26048033 0.9432754 Inf   0.276  0.9926
+ RB - 10LB  0.32480249 1.0628716 Inf   0.306  0.9901
+ RB - 4LB   0.06432216 1.0810691 Inf   0.059  0.9999
+ 3LB - 10LB 0.51783180 1.1248092 Inf   0.460  0.9676
+ 3LB - 4LB  0.25735147 1.1420202 Inf   0.225  0.9960
+ 3LB - RB   0.19302930 1.2426333 Inf   0.155  0.9987
+
+Results are given on the log odds ratio (not the response) scale. 
+P value adjustment: tukey method for comparing a family of 4 estimates 
+

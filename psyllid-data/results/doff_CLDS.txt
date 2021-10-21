@@ -1,0 +1,166 @@
+$emmeans
+ variety     emmean       SE  df asymp.LCL asymp.UCL .group
+ RB      -13.780494 2.943199 Inf -21.11175 -6.449237  a    
+ 4LB     -13.629097 2.950285 Inf -20.97801 -6.280186  a    
+ 10LB     -8.710684 1.910961 Inf -13.47073 -3.950643  ab   
+ 3LB      -8.280386 1.852007 Inf -12.89358 -3.667193   b   
+
+Results are averaged over the levels of: sex 
+Results are given on the log (not the response) scale. 
+Confidence level used: 0.95 
+Conf-level adjustment: sidak method for 4 estimates 
+P value adjustment: tukey method for comparing a family of 4 estimates 
+significance level used: alpha = 0.05 
+
+$comparisons
+ contrast    estimate       SE  df z.ratio p.value
+ 4LB - RB   0.1513975 1.737635 Inf   0.087  0.9998
+ 10LB - RB  5.0698103 2.151836 Inf   2.356  0.0858
+ 10LB - 4LB 4.9184129 2.146987 Inf   2.291  0.1001
+ 3LB - RB   5.5001088 2.038119 Inf   2.699  0.0351
+ 3LB - 4LB  5.3487113 2.030804 Inf   2.634  0.0420
+ 3LB - 10LB 0.4302984 1.673648 Inf   0.257  0.9940
+
+Results are averaged over the levels of: sex 
+Results are given on the log (not the response) scale. 
+P value adjustment: tukey method for comparing a family of 4 estimates 
+
+$emmeans
+ sex variety     emmean       SE  df asymp.LCL asymp.UCL .group
+ f   RB      -13.908687 2.979881 Inf -22.03485 -5.782528  a    
+ f   4LB     -13.757290 2.982608 Inf -21.89089 -5.623694  a    
+ m   RB      -13.652302 3.028637 Inf -21.91142 -5.393186  a    
+ m   4LB     -13.500904 3.039723 Inf -21.79025 -5.211556  a    
+ f   10LB     -8.838877 2.023685 Inf -14.35748 -3.320271  a    
+ m   10LB     -8.582491 1.983869 Inf -13.99252 -3.172464  a    
+ f   3LB      -8.408578 1.916536 Inf -13.63499 -3.182171  a    
+ m   3LB      -8.152193 1.978446 Inf -13.54743 -2.756955  a    
+
+Results are given on the log (not the response) scale. 
+Confidence level used: 0.95 
+Conf-level adjustment: sidak method for 8 estimates 
+P value adjustment: tukey method for comparing a family of 8 estimates 
+significance level used: alpha = 0.05 
+
+$comparisons
+ contrast         estimate       SE  df z.ratio p.value
+ f,4LB - f,RB    0.1513975 1.737635 Inf   0.087  1.0000
+ m,RB - f,RB     0.2563857 1.206231 Inf   0.213  1.0000
+ m,RB - f,4LB    0.1049883 2.103176 Inf   0.050  1.0000
+ m,4LB - f,RB    0.4077832 2.127295 Inf   0.192  1.0000
+ m,4LB - f,4LB   0.2563857 1.206231 Inf   0.213  1.0000
+ m,4LB - m,RB    0.1513975 1.737635 Inf   0.087  1.0000
+ f,10LB - f,RB   5.0698103 2.151836 Inf   2.356  0.2633
+ f,10LB - f,4LB  4.9184129 2.146987 Inf   2.291  0.2985
+ f,10LB - m,RB   4.8134246 2.556933 Inf   1.882  0.5630
+ f,10LB - m,4LB  4.6620271 2.562825 Inf   1.819  0.6070
+ m,10LB - f,RB   5.3261961 2.373369 Inf   2.244  0.3252
+ m,10LB - f,4LB  5.1747986 2.358180 Inf   2.194  0.3550
+ m,10LB - m,RB   5.0698103 2.151836 Inf   2.356  0.2633
+ m,10LB - m,4LB  4.9184129 2.146987 Inf   2.291  0.2985
+ m,10LB - f,10LB 0.2563857 1.206231 Inf   0.213  1.0000
+ f,3LB - f,RB    5.5001088 2.038119 Inf   2.699  0.1228
+ f,3LB - f,4LB   5.3487113 2.030804 Inf   2.634  0.1438
+ f,3LB - m,RB    5.2437230 2.379228 Inf   2.204  0.3492
+ f,3LB - m,4LB   5.0923256 2.383691 Inf   2.136  0.3913
+ f,3LB - f,10LB  0.4302984 1.673648 Inf   0.257  1.0000
+ f,3LB - m,10LB  0.1739127 1.963514 Inf   0.089  1.0000
+ m,3LB - f,RB    5.7564945 2.357353 Inf   2.442  0.2211
+ m,3LB - f,4LB   5.6050971 2.340156 Inf   2.395  0.2435
+ m,3LB - m,RB    5.5001088 2.038119 Inf   2.699  0.1228
+ m,3LB - m,4LB   5.3487113 2.030804 Inf   2.634  0.1438
+ m,3LB - f,10LB  0.6866842 2.157961 Inf   0.318  1.0000
+ m,3LB - m,10LB  0.4302984 1.673648 Inf   0.257  1.0000
+ m,3LB - f,3LB   0.2563857 1.206231 Inf   0.213  1.0000
+
+Results are given on the log (not the response) scale. 
+P value adjustment: tukey method for comparing a family of 8 estimates 
+
+$emmeans
+variety = 10LB:
+ sex     emmean       SE  df asymp.LCL asymp.UCL .group
+ f    -8.838877 2.023685 Inf -14.35748 -3.320271  a    
+ m    -8.582491 1.983869 Inf -13.99252 -3.172464  a    
+
+variety = 3LB:
+ sex     emmean       SE  df asymp.LCL asymp.UCL .group
+ f    -8.408578 1.916536 Inf -13.63499 -3.182171  a    
+ m    -8.152193 1.978446 Inf -13.54743 -2.756955  a    
+
+variety = 4LB:
+ sex     emmean       SE  df asymp.LCL asymp.UCL .group
+ f   -13.757290 2.982608 Inf -21.89089 -5.623694  a    
+ m   -13.500904 3.039723 Inf -21.79025 -5.211556  a    
+
+variety = RB:
+ sex     emmean       SE  df asymp.LCL asymp.UCL .group
+ f   -13.908687 2.979881 Inf -22.03485 -5.782528  a    
+ m   -13.652302 3.028637 Inf -21.91142 -5.393186  a    
+
+Results are given on the log (not the response) scale. 
+Confidence level used: 0.95 
+Conf-level adjustment: sidak method for 8 estimates 
+significance level used: alpha = 0.05 
+
+$comparisons
+variety = 10LB:
+ contrast  estimate       SE  df z.ratio p.value
+ m - f    0.2563857 1.206231 Inf   0.213  0.8317
+
+variety = 3LB:
+ contrast  estimate       SE  df z.ratio p.value
+ m - f    0.2563857 1.206231 Inf   0.213  0.8317
+
+variety = 4LB:
+ contrast  estimate       SE  df z.ratio p.value
+ m - f    0.2563857 1.206231 Inf   0.213  0.8317
+
+variety = RB:
+ contrast  estimate       SE  df z.ratio p.value
+ m - f    0.2563857 1.206231 Inf   0.213  0.8317
+
+Results are given on the log (not the response) scale. 
+
+$emmeans
+sex = m:
+ variety     emmean       SE  df asymp.LCL asymp.UCL .group
+ RB      -13.652302 3.028637 Inf -21.91142 -5.393186  a    
+ 4LB     -13.500904 3.039723 Inf -21.79025 -5.211556  a    
+ 10LB     -8.582491 1.983869 Inf -13.99252 -3.172464  ab   
+ 3LB      -8.152193 1.978446 Inf -13.54743 -2.756955   b   
+
+sex = f:
+ variety     emmean       SE  df asymp.LCL asymp.UCL .group
+ RB      -13.908687 2.979881 Inf -22.03485 -5.782528  a    
+ 4LB     -13.757290 2.982608 Inf -21.89089 -5.623694  a    
+ 10LB     -8.838877 2.023685 Inf -14.35748 -3.320271  ab   
+ 3LB      -8.408578 1.916536 Inf -13.63499 -3.182171   b   
+
+Results are given on the log (not the response) scale. 
+Confidence level used: 0.95 
+Conf-level adjustment: sidak method for 8 estimates 
+P value adjustment: tukey method for comparing a family of 4 estimates 
+significance level used: alpha = 0.05 
+
+$comparisons
+sex = m:
+ contrast    estimate       SE  df z.ratio p.value
+ 4LB - RB   0.1513975 1.737635 Inf   0.087  0.9998
+ 10LB - RB  5.0698103 2.151836 Inf   2.356  0.0858
+ 10LB - 4LB 4.9184129 2.146987 Inf   2.291  0.1001
+ 3LB - RB   5.5001088 2.038119 Inf   2.699  0.0351
+ 3LB - 4LB  5.3487113 2.030804 Inf   2.634  0.0420
+ 3LB - 10LB 0.4302984 1.673648 Inf   0.257  0.9940
+
+sex = f:
+ contrast    estimate       SE  df z.ratio p.value
+ 4LB - RB   0.1513975 1.737635 Inf   0.087  0.9998
+ 10LB - RB  5.0698103 2.151836 Inf   2.356  0.0858
+ 10LB - 4LB 4.9184129 2.146987 Inf   2.291  0.1001
+ 3LB - RB   5.5001088 2.038119 Inf   2.699  0.0351
+ 3LB - 4LB  5.3487113 2.030804 Inf   2.634  0.0420
+ 3LB - 10LB 0.4302984 1.673648 Inf   0.257  0.9940
+
+Results are given on the log (not the response) scale. 
+P value adjustment: tukey method for comparing a family of 4 estimates 
+

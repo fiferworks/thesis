@@ -1,0 +1,8 @@
+time,code,class
+0,NO FEED,1
+0, Walk,2
+0,NO CLEAN,3
+0,ON Leaf,4
+6.240192, Probe/Feed,1
+6.240192,STILL,2
+300.305983,END,0

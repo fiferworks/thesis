@@ -1,0 +1,8 @@
+Analysis of Deviance Table (Type II Wald chisquare tests)
+
+Response: d_off
+         Chisq Df Pr(>Chisq)  
+variety 9.5498  3    0.02281 *
+sex     0.0452  1    0.83168  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

@@ -1,0 +1,35 @@
+Generalized linear mixed model fit by maximum likelihood (Adaptive Gauss-Hermite Quadrature, nAGQ = 25) [glmerMod
+]
+ Family: poisson  ( log )
+Formula: d_off ~ variety + sex + (1 | psyllid)
+   Data: bhvr
+Control: glmerControl(optimizer = "optimx", optCtrl = list(method = "bobyqa",      dowarn = T))
+
+     AIC      BIC   logLik deviance df.resid 
+   275.0    294.2   -131.5    263.0      175 
+
+Scaled residuals: 
+      Min        1Q    Median        3Q       Max 
+-0.016754 -0.013572 -0.001170 -0.001029  0.095751 
+
+Random effects:
+ Groups  Name        Variance Std.Dev.
+ psyllid (Intercept) 92.68    9.627   
+Number of obs: 181, groups:  psyllid, 181
+
+Fixed effects:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)  -8.5825     1.9839  -4.326 1.52e-05 ***
+variety3LB    0.4303     1.6736   0.257   0.7971    
+variety4LB   -4.9184     2.1470  -2.291   0.0220 *  
+varietyRB    -5.0698     2.1518  -2.356   0.0185 *  
+sexf         -0.2564     1.2062  -0.213   0.8317    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+           (Intr) vrt3LB vrt4LB vrtyRB
+variety3LB -0.425                     
+variety4LB  0.082  0.457              
+varietyRB   0.071  0.455  0.673       
+sexf       -0.271 -0.099 -0.097 -0.087

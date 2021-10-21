@@ -1,0 +1,12 @@
+time,code,class
+0, Probe/Feed,1
+0,STILL,2
+0,NO CLEAN,3
+0,ON Leaf,4
+33.324112, Cleaning,3
+108.001616,NO CLEAN,3
+126.231936, Cleaning,3
+211.446768,NO CLEAN,3
+228.200864, Cleaning,3
+299.424064, Walk,2
+300.32365,END,0

@@ -1,0 +1,38 @@
+Generalized linear mixed model fit by maximum likelihood (Adaptive Gauss-Hermite Quadrature, nAGQ = 25) ['glmerMod']
+ Family: poisson  ( log )
+Formula: nymphs ~ germ + period + germ * period + (1 | psyllid)
+   Data: fcnd
+Control: glmerControl(optimizer = "optimx", optCtrl = list(method = "bobyqa",      dowarn = T))
+
+     AIC      BIC   logLik deviance df.resid 
+  1501.8   1559.7   -733.9   1467.8      206 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-5.0206 -1.3402 -0.5412  0.9858  7.9232 
+
+Random effects:
+ Groups  Name        Variance Std.Dev.
+ psyllid (Intercept) 2.289    1.513   
+Number of obs: 223, groups:  psyllid, 66
+
+Fixed effects:
+                 Estimate Std. Error z value Pr(>|z|)    
+(Intercept)       0.69745    0.46215   1.509  0.13126    
+germ4LB           0.67867    0.58843   1.153  0.24876    
+germRB            0.19833    0.63206   0.314  0.75368    
+germ10LB          0.36272    0.58443   0.621  0.53484    
+period2           0.63826    0.15976   3.995 6.46e-05 ***
+period3           0.49584    0.16394   3.024  0.00249 ** 
+period4          -1.50904    0.31681  -4.763 1.90e-06 ***
+germ4LB:period2  -0.45848    0.19675  -2.330  0.01979 *  
+germRB:period2   -0.31849    0.22481  -1.417  0.15657    
+germ10LB:period2 -0.44931    0.20661  -2.175  0.02965 *  
+germ4LB:period3  -0.73733    0.21569  -3.418  0.00063 ***
+germRB:period3   -0.28730    0.23051  -1.246  0.21263    
+germ10LB:period3 -0.01265    0.20684  -0.061  0.95124    
+germ4LB:period4   0.88267    0.36039   2.449  0.01432 *  
+germRB:period4    1.85241    0.35467   5.223 1.76e-07 ***
+germ10LB:period4 -0.45562    0.43257  -1.053  0.29221    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

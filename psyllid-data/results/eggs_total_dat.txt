@@ -1,0 +1,9 @@
+ period     rate        SE  df asymp.LCL asymp.UCL
+ 1      6.186209 0.8305691 Inf  4.754897  8.048373
+ 2      8.529883 1.1358675 Inf  6.570437 11.073678
+ 3      8.308446 1.1156824 Inf  6.385839 10.809899
+ 4      5.215930 0.7259572 Inf  3.970643  6.851768
+
+Results are averaged over the levels of: germ 
+Confidence level used: 0.95 
+Intervals are back-transformed from the log scale 

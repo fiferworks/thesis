@@ -1,0 +1,8 @@
+ germ      prob        SE  df asymp.LCL asymp.UCL
+ 10LB 0.6640701 0.1454955 Inf 0.3550712 0.8765104
+ 3LB  0.7684033 0.1630852 Inf 0.3550702 0.9523686
+ 4LB  0.7194965 0.1375337 Inf 0.4028325 0.9070055
+ RB   0.7322930 0.1645240 Inf 0.3455661 0.9340826
+
+Confidence level used: 0.95 
+Intervals are back-transformed from the logit scale 

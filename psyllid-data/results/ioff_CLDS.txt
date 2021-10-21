@@ -1,0 +1,55 @@
+Linear mixed model fit by REML ['lmerMod']
+Formula: eggs ~ germ * period + (1 | psyllid)
+   Data: fcnd
+
+REML criterion at convergence: 1688.8
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-1.5928 -0.6288 -0.2236  0.4181  4.0976 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ psyllid  (Intercept)  33.56    5.793  
+ Residual             140.72   11.862  
+Number of obs: 223, groups:  psyllid, 66
+
+Fixed effects:
+                 Estimate Std. Error t value
+(Intercept)        6.7692     3.6614   1.849
+germ4LB            5.7571     4.7517   1.212
+germRB             2.2308     5.0847   0.439
+germ10LB           2.1308     4.7032   0.453
+period2            6.5005     4.7670   1.364
+period3            5.9172     4.7670   1.241
+period4           -0.7719     4.8927  -0.158
+germ4LB:period2   -4.1658     6.2604  -0.665
+germRB:period2    -3.6434     6.5442  -0.557
+germ10LB:period2  -5.1461     6.1868  -0.832
+germ4LB:period3   -6.7858     6.6208  -1.025
+germRB:period3    -4.0600     6.5442  -0.620
+germ10LB:period3  -0.5409     6.2895  -0.086
+germ4LB:period4   -1.6649     6.9489  -0.240
+germRB:period4     2.3196     6.7023   0.346
+germ10LB:period4  -2.4343     6.5128  -0.374
+Analysis of Deviance Table (Type II Wald chisquare tests)
+
+Response: eggs
+             Chisq Df Pr(>Chisq)
+germ        1.2113  3     0.7503
+period      5.3409  3     0.1485
+germ:period 3.5720  9     0.9373
+Analysis of Deviance Table (Type II Wald chisquare tests)
+
+Response: eggs
+             Chisq Df Pr(>Chisq)
+germ        1.2113  3     0.7503
+period      5.3409  3     0.1485
+germ:period 3.5720  9     0.9373
+Analysis of Deviance Table (Type II Wald chisquare tests)
+
+Response: eggs
+             Chisq Df Pr(>Chisq)
+germ        1.2113  3     0.7503
+period      5.3409  3     0.1485
+germ:period 3.5720  9     0.9373

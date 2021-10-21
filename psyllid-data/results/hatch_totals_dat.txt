@@ -1,0 +1,9 @@
+ period      prob         SE  df asymp.LCL asymp.UCL
+ 1      0.6125659 0.05881462 Inf 0.4930991 0.7198721
+ 2      0.5894788 0.05871379 Inf 0.4715991 0.6979064
+ 3      0.5784299 0.06118012 Inf 0.4562592 0.6916989
+ 4      0.2033478 0.04745646 Inf 0.1256849 0.3118816
+
+Results are averaged over the levels of: germ 
+Confidence level used: 0.95 
+Intervals are back-transformed from the logit scale 

@@ -1,0 +1,46 @@
+{
+ "name": "Potato Psyllid Settling Behaviors",
+ "dataDirectory": "C:\\Users\\P. fructiphilus\\Desktop",
+ "author": "Austin N. Fife",
+ "email": "afife@uidaho.edu",
+ "videoplayer": "html5 checked",
+ "nClasses": 4,
+ "modifiers": false,
+ "codes": [
+  "NO FEED, Probe/Feed",
+  "STILL, Walk, JUMP",
+  "NO CLEAN, Cleaning",
+  "ON Leaf, OFF Leaf"
+ ],
+ "codeArray": [
+  [
+   "NO FEED",
+   " Probe/Feed"
+  ],
+  [
+   "STILL",
+   " Walk",
+   " JUMP"
+  ],
+  [
+   "NO CLEAN",
+   " Cleaning"
+  ],
+  [
+   "ON Leaf",
+   " OFF Leaf"
+  ]
+ ],
+ "keyCodes": [
+  "7",
+  "4",
+  "8",
+  "5",
+  "2",
+  "9",
+  "6",
+  "/",
+  "*"
+ ],
+ "modifiedCodes": null
+}

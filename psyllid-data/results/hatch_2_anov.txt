@@ -1,0 +1,5 @@
+Analysis of Deviance Table (Type II Wald chisquare tests)
+
+Response: hatch
+      Chisq Df Pr(>Chisq)
+germ 0.2378  3     0.9713
