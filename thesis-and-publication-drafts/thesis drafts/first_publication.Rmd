@@ -1,0 +1,673 @@
+---
+title: 'Investigating behavior of the potato psyllid *Bactericera cockerelli* (Šulc) (Hemiptera: Triozidae) on three potato genotypes with putative resistance to "*Candidatus* Liberibacter solacearum"'
+author:
+- 'Austin N. Fife^[The University of Florida - North Florida  Research and Education Center, 155 Research Road, Quincy, FL, 32351, USA] ^[Corresponding author email: afife@ufl.edu], Arash Rashed^[The University of Idaho, 875 Perimeter Dr, Moscow, ID, 83844, USA], Richard G. Novy^[The University of Idaho - Aberdeen Research and Extension Center, 1693 S 2700 W, Aberdeen, ID, 83210, USA] and Erik J. Wenninger^[The University of Idaho - Kimberly Research & Extension Center, 3806 N 3600 E, Kimberly, ID, 83341, USA]'
+
+bibliography:
+- 'af\_thesis\_refs.bib'
+date: "`r format(Sys.time(), '%d/%m/%Y')`"
+output: word_document
+pandoc_args: ["--filter", "pandoc-fignos"]
+csl: 'journal-of-medical-entomology.csl'
+link-citations: false
+link-url: false
+link-email: false
+---
+**Abstract**
+The potato/tomato psyllid *Bactericera cockerelli* (Šulc) (Hemiptera: Triozidae)
+transmits "*Candidatus* Liberibacter solanacearum" (Lso), the causal agent of
+Zebra chip disease (ZC) in potato. ZC creates large economic losses when disease
+incidence is high. No commercial potato variety has been found resistant
+to the pathogen or the disease symptoms. 
+We observed host acceptance behaviors using no-choice assays on breeding clones
+derived from *Solanum chacoense* Bitter with putative resistance to Lso and/or ZC.
+We also compared oviposition and egg fertility for psyllids held
+on these genotypes. Probing frequency and female walking duration were
+highest on Russet Burbank, suggesting greater activity on Russet Burbank
+than on the three resistant genotypes. The number of eggs did not
+differ among genotypes but declined on all genotypes during the last
+period of observation (18-20 days after confinement with a male). Egg
+fertility did not differ among genotypes for the first three observation
+periods (16-18 days after confinement with a male) but more eggs were fertile on Russet
+Burbank than 10LB or 3LB during the last observation period (18-20 days
+after confinement with a male). We discuss the modality of resistance in context of these genotypes. 
+
+**Key Words**     *Bactericera cockerelli*, Candidatus *Liberibacter solacearum*, behavior, host plant resistance
+
+Introduction {#ch:intro}
+============
+
+The potato/tomato psyllid, *Bactericera cockerelli* (Šulc) (Hemiptera:
+Triozidae), is a small sternorrhynchan insect pest of solanaceous crops
+such as potato, tomato, cape gooseberry, tobacco, pepper, eggplant and
+tamarillo [@Aguilar2013; @Martin2008; @Knowlton1934; @Liefting2008; -@Liefting2009; @Wallis1955].
+
+First discovered in Colorado [@Sulc1909], potato psyllids have a history
+closely tied to potato growing regions and potato diseases
+[@Richards1973]. *B. cockerelli*'s geographical distribution ranges from
+southern Canada to Central America, throughout the western United States
+[@Butler2012a; @Munyaneza2007a; @Rehman2010] and
+a recent introduction to New Zealand [@Liefting2009;
+@Martin2008; @Teulon2009].
+
+Publications regarding the psyllid initially emerged from 1926-1928, due
+a condition affecting solanaceous plants known as 'psyllid yellows'
+[@Eyer1933; @Richards1928; @Richards1973].
+
+Potato psyllids have recently been identified as vectors of
+"*Candidatus* Liberibacter solanacearum" (Lso) (Rhizobiaceae:
+Alphaproteobacteria) [@Cicero2016; Goolsby et al. -@Goolsby2007a;
+@Liefting2009; @Munyaneza2007a].
+Lso is an uncultured gram-negative $\alpha$-proteobacterium [@Liefting2009]
+that infects solanaceous plants. Lso is transmitted to the plant's phloem by the
+psyllid's saliva while feeding [@Cooper2014].
+
+Symptoms in potato include stunting, swollen axillary buds, aerial
+tubers, leaf purpling, chlorosis and reduced yield 
+[@Munyaneza2007a; -@Munyaneza2008]. Infection also alters tuber
+sugars and phenolics; resulting in brown stripes which char and blacken
+when fried [@Alvarado2012; @Buchman2012;
+@Navarre2009]. This condition is known as 'zebra chip' disease (ZC)
+[@Crosslin2011; @Hansen2008; @Liefting2009; @Lin2009]. Zebra chip-affected tubers are
+unmarketable, which results in large economic losses for growers
+[@Munyaneza2007a; @Rosson2006]. Yield reduction
+from Lso infection has ranged from 43% to 93% in some cases 
+[@Munyaneza2008; -@Munyaneza2011].
+
+Lso and ZC symptoms were first described in 1994 in Mexico
+[@Secor2004; @Munyaneza2009] and was detected in
+the United States in 2000 [@Secor2004]. Lso and ZC were first detected
+in the Pacific Northwest (PNW) states of Idaho, Washington, and Oregon
+in 2011 [@Murphy2012; @Crosslin2012]. Since 2011,
+Lso and ZC continue to threaten potato production in the
+PNW, increasing production costs for growers
+[@Greenway2014; @Greenway2018; @Guenthner2012; @Wenninger2017].
+
+Traditional management of the potato psyllid vector relies on multiple applications of pesticides
+[@Echegaray2017; @Greenway2014; @Guenthner2012]. In 2018, around half of Eastern Idaho
+growers' insecticide expenditures were related to ZC control
+[@Greenway2018]. Chemicals such as abamectin, imidacloprid, spiromesifen,
+thiamethoxam and dinotefuran [@Gharalari2009; @Goolsby2007b; @Guenthner2012;
+@Vega-Gutierrez2008] are commonly used but, some psyllid populations are starting to develop resistance to common neonicotinoids and abamectin [@Hernandez-Bautista2013; @Chavez2015; @Liu2004; @Prager2013].
+
+The difficulty and large expense of psyllid control
+emphasizes the need for alternative and improved pest management
+strategies such as host plant resistance.
+
+Host plant resistance is a valuable part of integrated pest management
+[@Butler2012a a; @Diaz-Montano2013; @Kogan1988; @Munyaneza2012b b]. Even a small
+amount of resistance/tolerance of a plant to a vector or it's pathogen
+can reduce damage below action thresholds and reduce pesticide
+applications [@Kennedy1987]. Host plant resistance increases
+pesticide efficiency and helps to delay insecticide resistance
+[@Gharalari2009]. Currently no commercial potato varieties have been
+found with acceptable resistance to Lso. [@Anderson2012; @Munyaneza2011].
+
+Potatoes which have been bred with closely related plants such as
+*Solanum chacoense* Bitter [@Rashidi2017] and *Solanum berthaultii* Hawkes
+[@Butler2011] have shown less Lso infection and/or ZC
+symptoms than other genotypes tested. By determining how these genotypes
+resist/tolerate Lso or to the psyllid vector [@Butler2011; @Putten2001; @Kennedy1987],
+we can decide which traits should be bred or cloned into commercial cultivars to create resistant potatoes [@Casteel2006; -@Casteel2007; @Kaloshian2004]. 
+
+We examined psyllid host acceptance behaviors and oviposition on three potato breeding clones derived from *Solanum chacoense*: 'A07781-10LB' ('10LB'), 'A07781-3LB', ('3LB') and 'A07781-4LB' ('4LB') [@Rashidi2017].
+These genotypes exhibit high tolerance and low susceptibility to Lso [@Rashidi2017], possibly due to resistance/tolerance to the psyllid vector. Our results will help clarify potato-psyllid interactions on these genotypes, which will help plant breeders to develop Lso-resistant potatoes [@Kennedy1987].\
+
+
+Materials and Methods {#ch:mms}
+=====================
+
+Plant Characteristics and Living Conditions {#sec:plants}
+-------------------------------------------
+
+Potato clones were provided by the USDA-ARS, Small Grains and Potato
+Germplasm Research Unit Aberdeen, ID, USA. We used three sibling clones
+derived from *Solanum chacoense* Bitter with putative tolerance/resistance to Lso:
+A07781-3LB, A07781-4LB, and A07781-10LB [@Rashidi2017]. 'Russet Burbank'
+was used because it is susceptible to Lso [@Munyaneza2011] and because of its large impact on potato production
+in the Pacific Northwest [@NASSNorthwestRegionalFieldOffice2017]. The
+selected potatoes were grown in a greenhouse maintained between 25-32°C,
+32% RH, with a photoperiod of 16:8 (L:D). Plants were grown in pots of
+approximately 8.5 cm length $\times$ 8.5 cm width $\times$ 9.5 cm
+height, with a soil mixed in ratios of 4:4:4:1 peat moss: compost:
+coconut coir: perlite. Fertilizer was not used on experimental plants to
+avoid nitrogen increases which may alter insect feeding behaviors
+[@Pfeiffer1983; -@Pfeiffer1984]. We used plants in their vegetative
+growth stage (growth stage II) [@Dwelle2003].
+
+Insect Characteristics and Living Conditions {#sec:insects}
+--------------------------------------------
+
+A Lso-positive potato psyllid colony was reared in the same greenhouse
+conditions as described above to avoid phenological asynchrony
+[@Hodkinson2015]. Psyllids were allowed free access to both Russet
+Burbank potatoes and 'Yellow Pear' tomatoes (*Solanum lycopersicum* L.).
+Colony plants were fertilized once weekly with approximately 17 g of
+24:8:16 NPK fertilizer per gallon of water (MiracleGro All Purpose Plant
+Food, Scotts Company, Marysville, OH). Plants were replaced as needed.
+
+Lso Detection {#sec:pcr}
+-------------
+
+Idaho harbors four haplotypes of the potato psyllid: Northwestern,
+Western, Central and Southwestern and two haplotypes of Lso: Lso A and
+Lso B [@Dahan2017; @Wenninger2017]. Our lab colony
+was determined to be comprised of 'Central' psyllids infected with Lso
+'B' via the methods described in Swisher and Crosslin
+[-@Swisher2014a a]. A sample of forty psyllids taken from the colony
+were transferred to individual microcentrifuge tubes filled with 70%
+ethanol. Lso incidence was tested at the Aberdeen Research and Extension
+Center (Aberdeen, ID, USA). DNA extraction was based on the methods
+described by Marzachi et al. [-@Marzachi1998]. Individual psyllids
+were ground by a homogenizer (Omni International Inc., Kennesaw, GA),
+macerating each psyllid for 1 minute at high speed and an additional
+minute at medium speed in 500 of Cetyl Trimethylammonium Bromide 2%
+(Alpha Teknova, Inc., Hollister, CA, Cat. No. C2190) (Composition: 2%
+CTAB, 100mM Tris-HCl, pH 8.0, 20mM EDTA, pH 8.0, 1.4M Sodium Chloride
+(NaCl). Microcentrifuge tubes were then incubated at 60 for 30 minutes
+and gently mixed by inversion every 10 minutes while incubating. Tubes
+were then spun in a centrifuge at 14,000 rpm for 5 minutes and then the
+supernatant was transferred to clean 2 ml tubes. The supernatant was
+vortexed for approximately 20 seconds with 500 ml of chloroform:isoamyl
+alcohol (24:1 v:v) (Sigma-Aldrich, Inc., Atlanta, GA: Catalogue number
+C0549), then centrifuged at 14,000 rpm for 5-10 minutes at 4. The clean
+supernatant was transferred to a new tube, then refrigerated isopropanol
+(Sigma-Aldrich, Inc., Atlanta, GA: Catalogue number I9516) was added at
+a rate of 2/3 of the volume of the supernatant. The mixture was then
+refrigerated at -20 for 20-30 minutes. DNA was precipitated by
+centrifuging the mixture for 20 minutes at 14,000 rpm at 4, gently
+pouring off the supernatant and keeping the precipitated DNA pellet. The
+pellet was washed in 300 of 70% ethanol and centrifuged for 5 mins at
+10,000 rpm. The pellet was then dried overnight in a fume hood. Once
+dry, 30 of nuclease-free water was added. DNA was stored at -20.
+
+Extracted DNA samples were then processed using a Sybgreen method.
+SsoAdvanced Universal SYBR Green Supermix (Biorad, Hercules, CA) was
+mixed in a CFX Connect Real-Time PCR Detection System (Biorad, Hercules,
+CA). HLBr (5'-GCG TTA TCC CGT AGA AAA AGG TAG-3') and LsoF (5'-GTC GAG
+CGC TTA TTT TTA ATA GGA-3') were used as primers [@Li2006;
+-@Li2009] and 10 of Sybgreen supermix was added to 150 nM of each
+primer with 1 of DNA template. The program cycle was as follows: one
+cycle at 98 for 2 mins followed by 40 cycles of 95 for 10 sec and 62 for
+20 sec. The melt curve was 65 to 95, with increments of 0.5 sec^-1^. DNA
+of a healthy tuber was used as a negative control. DNA of a Lso-infected
+tuber was used as a positive control and water was used as a no-template
+control in all tests. pIDTSmart Kan (Synthetic Genomics, SGI-DNA, CA)
+with a 250 bp region was amplified with the primer HLBr. The plasmid was
+diluted 10-fold and used with the following dilutions: 1 $\times$
+10^-2^, 1 $\times$ 10^-3^, 1 $\times$ 10^-4^, 1 $\times$ 10^-6^, 1
+$\times$ 10^-7^, and 1 x 10^-8^ ng. Pathogen quantity was reported as
+copy number of Lso, copy numbers were determined using the methods of
+[Levy et al. -@Levy2011].
+
+Each psyllid tested positive for Lso, suggesting a 100% rate of
+infection for the colony.
+
+No-Choice Behavior Assays {#sec:no-choice}
+-------------------------
+
+No-choice assays were conducted in a climate-controlled room maintained
+at 26. Assays were conducted on a wire shelving unit which allowed the
+testing arena to be lit both from above and below. Three Smith-Victor
+Digilight fixtures (Smith-Victor Corporation, Bartlett, IL) were used
+with three Azlo (Akces Media LLC dba ALZO Digital, Bethel, CT)
+full-spectrum CFL bulbs per light fixture (100-240 volts, 60 Hz, color
+temp 5500K CRI 91, 750 lumens, 15 watts). Two lights were placed with
+their light sources 35 cm above the testing arena and the light was
+softened with a diffusion material. The remaining light fixture was
+placed so that its light source was 45 cm below the testing arena and
+was softened with diffusion material as well. Illuminance was 3600 lx at
+the surface of the arena (Sekonic L-308DC-U Light Meter, Sekonic
+Corporation, Tokyo, Japan).
+
+The observation arena (*Fig. 1*) was modeled after the design described by Liu
+et al. [-@Liu2004], but modified to use leaflets of intact, potted
+plants like Butler et al. [-@Butler2011]. This permitted us to observe
+the psyllids with minimal interference to plant physiology and avoided
+altering plant volatiles or chemical defenses activated by damaging
+plant tissues [@Klingler2005]. A recording arena was formed by
+sandwiching a panel of glass, a wetted filter paper, a leaf, and a piece
+of Plastazote polyethylene foam (Zotefoams Inc., Croydon, UK), with a
+circular opening in the center (28 mm diameter). The arena was held
+together with two clips. This arena was then suspended by a suction cup
+held by an adjustable burette clamp. We used leaves from the upper
+canopy of the plants. The filter paper was discarded between
+observations. The glass pane and foam were replaced with each new plant
+and washed and dried at 90 before reuse to remove potential volatile
+accumulation. Recordings were done with a L3CMOS C-mount USB camera and
+ToupView recording software (L3CMOS14000KPA, Hangzhou ToupTek Photonics
+Co., Ltd, Hangzhou, Zhejiang, China).
+
+We collected psyllids from the colony by aspiration and transferred them
+to 8 $\times$ 35 mm glass shell vials. All psyllids were used within 90
+minutes from the time of collection. Psyllids were introduced to the
+arena and recorded for five minutes. Psyllid sex was identified and
+psyllids were preserved in 95% ethanol for later testing for Lso by PCR.
+We recorded similar categories as Butler et al. [-@Butler2011]:
+probing, walking, cleaning, and whether the psyllid was on or off the
+leaf. Probing behaviors have putative significance with disease
+transmission and host selection [@Prager2014a a;
+-@Prager2014b b]. Behavior was scored using CowLog3 [@Haenninen2009],
+which recorded incidence and timestamps for the behaviors observed.
+
+Oviposition Assays {#sec:fecundity}
+------------------
+
+Oviposition assays were conducted with greenhouse conditions, plants,
+and insects as previously described. A female/male pair of
+teneral psyllids (identified by their green body color) was introduced
+to a plant covered with an insect rearing sleeve (MegaView Science Co.,
+Ltd., Taiwan). Rearing sleeves were supported over the plant using two
+lengths of galvanized steel wire with a diameter of 1.63 mm. Each wire
+was curved into a parabolic shape and each end of the wire was inserted
+into the soil on opposite corners of the plant pot (*Fig. 2*). Plants were
+blocked by germplasm accession in rows of four and placed inside 60 cm
+length $\times$ 60 cm width $\times$ 60 cm height mesh-covered
+PVC-framed cages. Plants were watered on alternating days by soaking
+pots in 56 cm length $\times$ 28 cm width $\times$ 6 cm height plastic
+trays until the soil became saturated (approximately 45 mins). After a
+period of six to eight days the males were removed from the plants and
+the female transferred to a new plant of the same accession. The female
+psyllid was then transferred to a new plant every four days at three
+intervals. Eggs were counted on each plant after the female was removed.
+Nymphs were counted four days, eight days and twelve days later to allow
+time for hatching [@Knowlton1931]. Each nymph was removed as it was
+counted. The number of nymphs that hatched was considered an indicator
+of egg fertility. Fertility percentages were calculated as the ratio of
+nymphs divided by egg counts for each sample.
+
+Statistical Analysis {#sec:stats}
+--------------------
+
+Statistical analysis was performed using R Version 3.5.1 [@RCT2013]
+Assumptions of normality were investigated with qqplots and Cullen and
+Frey graphs from the R package fitdistrplus [@Delignette-Muller2015].
+No-choice experiments and egg count data were analyzed using generalized
+linear mixed modeling techniques (GLMM) [@Stroup2015] from the glmer
+function [@Bates2015]. A Poisson distribution and log link were used to
+model count data. Egg fertility was modeled with a binomial distribution
+and log link to account for ratios. Behavioral models had fixed factors
+of germplasm accession, sex and the interaction of accession $\times$
+sex. Psyllid replicate was treated as a random factor. The interaction
+of accession $\times$ sex was excluded from the off-leaf model to low
+occurrences (n = 20 out of 181 observations), which did not allow an
+interaction to be estimated by the model. Oviposition models had fixed
+factors of accession, period and accession $\times$ period. Psyllid
+replicate was considered the random factor. Egg fertility was modeled
+with accession and period as fixed factors and individual psyllids as
+the random factor. All data were tested with Wald's $\chi$^2^ tests,
+followed by least-squares means with Tukey's adjustments to test for
+multiple comparisons. Statistical significance was considered at
+$\alpha$ = 0.05.
+
+```{r, echo = FALSE, label=fig:fig_1}
+knitr::include_graphics("fig_1.jpg")
+```
+
+**Fig. 1.** No-choice arena used for behavioral recordings
+
+```{r, echo = FALSE}
+knitr::include_graphics("fig_2.jpg")
+```
+
+**Fig. 2.** Sleeve cage with potato used in oviposition assays
+
+
+Results {#ch:results}
+=======
+
+No-Choice Assays {#sec:results_no-choice}
+----------------
+
+The number of probing events observed was significantly different among
+genotypes (*Table 1*). Psyllids probed more frequently on Russet Burbank than on
+A07781-10LB and A07781-3LB, which did not differ between each other (*Table 2*).
+Probing frequency on A07781-4LB did not differ among the other
+genotypes. This effect appeared to reflect the trend of more probing by
+females on Russet Burbank (*Table 2*). However, the genotype $\times$ sex
+interaction was not significant (*Table 1*). Probing frequency did not was not
+affected by sex (*Table 2*). Overall, psyllids spent more time engaged in probing
+behavior than in the other activities recorded (*Tables 2-5*). Probing duration did not differ
+among genotypes, between sexes or by their interaction (*Table 1*).
+
+The number of walking events differed significantly among genotypes as
+well as by the interaction of genotype $\times$ sex (*Table 1*). Psyllids walked
+more on Russet Burbank than 10LB (*Table 3*). Female psyllids on Russet Burbank
+walked significantly more often than males and females on 10LB and
+females on 3LB (*Table 3*). The other means did not differ among each other.
+Walking duration did not differ among genotypes or between sexes, but
+the interaction term was significant (*Table 1*). Female psyllids walked
+significantly longer on Russet Burbank than for all other genotype
+$\times$ sex combinations (*Table 3*).
+
+Cleaning behaviors generally were uncommon and of short duration. The
+frequencies and durations of cleaning behaviors were not significantly
+different among genotypes, between sexes, or by their interaction
+(*Table 1*, *Table 4*).
+
+Off-leaf behaviors also tended to occur rarely. Frequency of off-leaf
+behaviors did not differ among genotypes, between sexes or by their
+interaction (*Table 1*). However, the duration of off-leaf behaviors differed
+significantly among genotypes (*Table 1*). Psyllids spent more time off-leaf in
+the 3LB treatment relative to the 4LB and Russet Burbank treatments.
+Time spent off-leaf in the 10LB treatment did not differ among the other
+genotypes (*Table 5*). Off-leaf duration did not differ by sex (*Table 1*). The
+interaction between genotype and sex could not be analyzed due to the
+low number psyllids observed leaving the leaf (n = 20 out of 181).
+
+Oviposition Assays {#sec:results_fecund}
+------------------
+
+Neither the number of eggs nor percent viable eggs differed
+significantly among genotypes (*Table 6*). However, both the number of eggs
+and egg fertility were significantly different by period and the
+interaction of genotype $\times$ period (*Table 6*). For oviposition, this
+interaction effect was an artifact of calculating multiple comparisons
+of different genotypes across observation periods. There were no
+significant differences among genotypes within a given period (*Table 7*). For
+egg fertility during the last period, there were significantly more
+fertile eggs on Russet Burbank than 10LB or 3LB and there were
+significantly more eggs on 4LB than 10LB (*Table 7*). There were no significant
+differences among genotypes within periods 1-3 (*Table 7*). Overall oviposition
+(with genotype pooled) was significantly lower during period 4 than for
+the first (*Table 7*). Similarly, egg fertility (with genotype pooled) tended to
+decline during the last observation period for all genotypes except for
+Russet Burbank (*Table 7*).
+
+Discussion {#ch:discuss}
+==========
+
+It is difficult to separate the mechanisms of host plant resistance or
+tolerance and how these correlate with psyllid host acceptance
+[@Diaz-Montano2006; @Butler2011]. Our visual observations of settling behavior
+lack the precision of electrical penetration recordings used in similar
+studies [Butler et al. -@Butler2012b; @Mustafa2015b;
+@Sandanayaka2014], but requires less expensive equipment.
+Our results are like other investigations of putatively resistant potato
+genotypes. Our study found more probing and walking on Russet Burbank
+than on the putatively resistant genotypes, which is consistent with
+results reported by Butler et al. [-@Butler2011] and Prager et al.
+[-@Prager2014b; b]. However, in contrast to Butler et al.
+[-@Butler2011], we found cleaning and leaf-leaving behaviors to be
+rare. Russet Burbank received more probes than two other
+genotypes, but the psyllids still probed the other genotypes, often for long
+periods. Sandanayaka et al. [-@Sandanayaka2014] and Mustafa et al
+[-@Mustafa2015b; b] both suggest that it takes *B. cockerelli*
+approximately two hours to access the phloem and acquire Lso. This
+suggests that very long recordings may be necessary to determine when
+probing becomes true feeding. Minimal overnight recordings revealed
+little activity besides apparent feeding on the genotype where they were
+placed (ANF, unpublished data). In addition, psyllids rarely abandoned the plants where they began to probe.
+A single psyllid is enough to transmit Lso and the disease progresses independently 
+of bacterial titer [@Buchman2011a; a; @Rashed2012]. Therefore, it is unlikely that
+we were observing phloem feeding which would result in pathogen
+transmission within the span of our short observation periods. These
+factors underscore that psyllid probing behavior would have to be nearly
+eliminated to truly reduce the risk of Lso transmission. We found no
+evidence for such reductions in probing behavior on these genotypes.
+
+Studies on the Asian citrus psyllid, *Diaphorina citri* Kuwayama (Hemiptera: Liviidae),
+a vector of a similar liberibacter pathogen [@Teixeira2005] have examined
+how host plant volatiles can alter psyllid behaviors [@Davidson2014; @Wenninger2009].
+Plant volatiles can induce probing in combination to visual and chemical cues from host plants [@Patt2011].
+
+It is possible that Lso infection has altered *B. cockerelli*'s
+attraction to leaf volatiles [@Mayer2008], and their settling behavior as well
+[@Mas2014]. Lso infection can increase psyllid preferences for undamaged,
+uninfected hosts for oviposition and settling [@Davis2012] -- a
+behavior which has been seen in other insect-plant-vector relationships
+[@Cao2016; @Eigenbrode2018]. It may be that this encouraged greater acceptance of genotypes which
+would be rejected by an uninfected psyllid. A high percentage of the psyllids in our colony were infected
+and our plants were all uninfected, so psyllid infection does not entirely explain the patterns we have seen.
+Infection status also fails to explain the minor trend we saw between male and female probing on Russet Burbank.
+
+Another explanation for differences between genotypes is that the female psyllids
+are more influenced by familiar cues while selecting host plants for oviposition or feeding [Prager et al.
+-@Prager2014a]. Russet Burbank was one of the plants used to rear our colonies, 
+so it is possible that the volatiles from this variety were more stimulating for
+female psyllids. Further studies into potato psyllid's attraction to plant volatiles while infected
+can help clarify if these possible explanations correlate with host plant
+acceptance.
+
+Although leaf-leaving duration differed significantly among genotypes,
+the incidence and duration of leaf-leaving behaviors was very small and
+probably not biologically significant. It is also important to note that leaf-leaving
+was defined in the context of leaving the leaf in our small observation arena.
+On a plant in the field there is a much larger
+surface area for a psyllid to explore, so the leaf-leaving events might
+represent questing behavior rather than host rejection. It also is
+possible that the duration between a psyllid's initial encounter and
+settling behaviors or eventual plant rejection is longer than the time
+we allotted for recording.
+
+Contrary to previously published studies [@Butler2011;
+@Cooper2014; @Diaz-Montano2013;
+@Rubio-Covarrubias2017] our study showed similar oviposition rates
+among genotypes, consistent with results reported by
+[@Prager2017]. Other studies have found psyllids will oviposit on a
+variety of hosts [@Diaz-Montano2013;
+@Thinakaran2015], even when it is not beneficial for their survival
+(@Prager2014b b). Psyllids oviposited on every type of
+potato offered, like observations by Prager et al.
+[-@Prager2017], giving little evidence of antixenosis.
+
+We selected the number of days for our observations to correlate with
+the periods of maximum oviposition reported in the life history tables
+of Abdullah [-@Abdullah2008; @Knowlton1931] and Yang et al.
+[-@Yang2010; -@Yang2013]. Therefore, it was surprising to see the
+large reduction of egg fertility for some psyllids in period four (18-24
+days). Fertility declined on the resistant genotypes as opposed to the
+Russet Burbank variety, which suggests that these genotypes may have
+antibiotic effects over time. Over the course of a growing season, these
+reductions may have a cumulative effect on psyllid populations. Longer
+observation periods could help to better quantify these effects.
+
+It is possible that Lso infection status played a role in the fertility
+observed: Lso has been reported to negatively impact female fertility
+[@Frias2018; @Nachappa2012; -@Nachappa2012a a;
+-@Nachappa2014; @Yao2016]. The antibiotic effects we observed may
+have different effects on uninfected psyllids.
+
+We saw a large degree of variability in fertility for psyllids on all
+genotypes. We only permitted male access to the female psyllids during
+the initial period to increase female longevity by preventing possible
+harassment [@Abdullah2008; @Arnqvist2005; @Wenninger2008].
+Abdullah [-@Abdullah2008; and Yang and Liu -@Yang2009; and Yang et
+al. -@Yang2013] all kept female and male psyllids together to freely
+mate for the duration their observations, which may explain why they
+observed greater fertility than we did. It is possible that potato
+psyllids may require multiple mates and/or multiple matings over time to
+maintain egg fertility [@Arnqvist2005; @Wenninger2008]. Knowlton and
+Janes [-@Knowlton1931] reported (with a limited number of
+observations) reductions in egg fertility over time after a single
+mating. There also may be some variability in female reproductive output
+created by the physiological interactions of male spermatophores, female
+spermathecae and/or spermatodose [@Marchini2011], which all
+influence how long females are able to remain fertile [@Abe2015;
+@Qazi2010; @Schnakenberg2011; @Wolfner2011].
+
+In conclusion, we found little evidence of antixenosis or antibiosis
+with respect to settling behavior, but we saw a reduction in egg
+fertility on the resistant genotypes 18-24 days after mating. Taken
+together, these results suggest that the modality of resistance to Lso
+for the A07781 genotypes [@Rashidi2017] is not likely related to
+psyllid settling behaviors, but that reduced Lso symptoms may be due to
+resistance to the pathogen itself, and not the psyllid vector. Further
+work will be required to clarify the modality of resistance to Lso in
+the A07781 genotypes.
+
+
+Table 1: Wald's ${\chi^2}$ tests comparing psyllid behaviors between sexes and among four genotypes: A07781-10LB, A07781-3LB, A07781-4LB and Russet Burbank
+
+
+|**Behavior**        |   |**Factors**            |   |          |**Incidence**|           |**Duration**|
+|:-------------------|:-:|:----------------------|:-:|---------:|------------:|----------:|-----------:|
+
+|                    |   |                       | df|${\chi^2}$|$\Pr>\chi^2$ |${\chi^2}$ |$\Pr>\chi^2$|
+|:-------------------|:-:|:----------------------|:-:|---------:|------------:|----------:|-----------:|
+|Probing             |   | Genotype              | 3 |     27.46|  ${0.000^*}$|       2.51|       0.473|
+|                    |   | Sex                   | 1 |      3.24|    ${0.072}$|       0.00|       0.959|
+|                    |   | Genotype $\times$ Sex | 3 |      6.49|    ${0.090}$|       4.74|       0.192|
+|                    |   |                       |   |          |             |           |            |
+|                    |   |                       |   |          |             |           |            |
+|Walking             |   |Genotype               | 3 |     16.17|  ${0.001^*}$|       4.66|       0.199|
+|                    |   |Sex                    | 1 |      1.65|        0.200|      0.036|       0.850|
+|                    |   |Genotype $\times$ Sex  | 3 |     11.13|  ${0.011^*}$|      10.73| ${0.013^*}$|
+|                    |   |                       |   |          |             |           |            |
+|                    |   |                       |   |          |             |           |            |
+|Cleaning            |   |Genotype               | 3 |      5.98|        0.113|       2.23|       0.525|
+|                    |   |Sex                    | 1 |      0.45|        0.503|       0.48|       0.490|
+|                    |   |Genotype $\times$ Sex  | 3 |      0.33|        0.955|       0.09|       0.993|
+|                    |   |                       |   |          |             |           |            |
+|Off-Leaf $^\dagger$ |   |Genotype               | 3 |      1.15|        0.765|       2.23| ${0.023^*}$|
+|                    |   |Sex                    | 1 |      0.71|        0.401|       0.48|       0.832|
+|                    |   |Genotype $\times$ Sex  | 3 |       ---|          ---|        ---|         ---|
+
+$^{*}$ indicates values which are significant at P \> 0.05\
+$^\dagger$ The interaction genotype $\times$ sex was unable to be analyzed due to
+the low number of psyllids which left the leaf (n = 20 out of 181)
+
+
+Table 2: Potato psyllid probing behaviors recorder during 300s no-choice tests on four different genotypes:
+A07781-10LB, A07781-3LB, A07781-4LB and Russet Burbank
+
+|**Genotype**  |**Sex**|**N**|**Incidence**   |      |**Duration (s)** |      |
+|:------------:|:------|:---:|---------------:|:----:|:---------------:|:----:|
+|10LB          |Female |21   |1.4 ${\pm}$ 0.26|      |182 ${\pm}$ 28.2 |      |
+|              |       |     |                |**A** |                 |      |
+|              |Male   |25   |1.3 ${\pm}$ 0.23|      |242 ${\pm}$ 34.0 |      |
+|              |       |     |                |      |                 |      |
+|3LB           |Female |27   |1.5 ${\pm}$ 0.24|      |248 ${\pm}$ 33.6 |      |
+|              |       |     |                |**A** |                 |      |
+|              |Male   |21   |1.4 ${\pm}$ 0.26|      |183 ${\pm}$ 28.2 |      |
+|              |       |     |                |      |                 |      |     
+|4LB           |Female |25   |1.7 ${\pm}$ 0.27|      |244 ${\pm}$ 34.1 |      |
+|              |       |     |                |**AB**|                 |      |
+|              |Male   |18   |1.9 ${\pm}$ 0.34|      |215 ${\pm}$ 35.6 |      |
+|              |       |     |                |      |                 |      |
+|Russet Burbank|Female |26   |3.4 ${\pm}$ 0.38|      |250 ${\pm}$ 34.4 |      |
+|              |       |     |                |**B** |                 |      |
+|              |Male   |18   |1.8 ${\pm}$ 0.32|      |285 ${\pm}$ 47.0 |      |
+
+Least-squares means. Differences among sex $\times$ genotype are indicated by lowercase letters,
+capital letters indicate differences when sex is pooled. 
+Means in the same column which share a letter are
+not significantly different (P \> 0.05)\
+
+
+Table 3: Potato psyllid walking behaviors recorded during 300s no-choice tests on four different genotypes:
+A07781-10LB, A07781-3LB, A07781-4LB and Russet Burbank
+
+|**Genotype**   |**Sex**|**N**|**Incidence**            |      |**Duration (s)**        |      |
+|:-------------:|:------|:---:|:-----------------------:|:----:|:----------------------:|:----:|
+|10LB           |Female |21   | 0.7 ${\pm}$ 0.19 **a**  |      |  0.9 ${\pm}$ 0.8 **a** |      |
+|               |       |     |                         |**A** |                        |      |
+|               |Male   |25   | 0.3 ${\pm}$ 0.12 **a**  |      |  0.6 ${\pm}$ 0.5 **a** |      |
+|               |       |     |                         |      |                        |      |
+|3LB            |Female |27   | 0.5 ${\pm}$ 0.15 **a**  |      |  0.4 ${\pm}$ 0.4 **a** |      |
+|               |       |     |                         |**AB**|                        |      |
+|               |Male   |21   | 0.8 ${\pm}$ 0.21 **ab** |      |  4.0 ${\pm}$ 3.3 **a** |      |
+|               |       |     |                         |      |                        |      |
+|4LB            |Female |25   | 0.9 ${\pm}$ 0.21 **ab** |      |  1.6 ${\pm}$ 1.3 **a** |      |
+|               |       |     |                         |**AB**|                        |      |
+|               |Male   |18   | 1.1 ${\pm}$ 0.28 **ab** |      |  5.7 ${\pm}$ 5.0 **a** |      |
+|               |       |     |                         |      |                        |      |
+|Russet Burbank |Female |26   | 1.8 ${\pm}$ 0.33 **b**  |      | 10.5 ${\pm}$ 7.5 **b** |      |
+|               |       |     |                         |**B** |                        |      |
+|               |Male   |18   | 0.6 ${\pm}$ 0.20 **ab** |      |  0.6 ${\pm}$ 0.6 **a** |      |
+
+Least-squares means. Differences among sex $\times$ genotype are indicated by lowercase letters,
+capital letters indicate differences when sex is pooled. 
+Means in the same column which share a letter are
+not significantly different (P \> 0.05)\
+
+
+Table 4: Potato psyllid cleaning behaviors recorded during 300s no-choice tests on four different genotypes:
+A07781-10LB, A07781-3LB, A07781-4LB and Russet Burbank
+
+|**Genotype**   |**Sex**|**N**|**Incidence**      |      |**Duration (s)**        |      |
+|:-------------:|:------|:---:|:-----------------:|:----:|:----------------------:|:----:|
+|10LB           |Female |21   | 0.34 ${\pm}$ 0.15 |      | 0.008 ${\pm}$ 0.017    |      |
+|               |       |     |                   |      |                        |      |
+|               |Male   |25   | 0.33 ${\pm}$ 0.13 |      | 0.023 ${\pm}$ 0.048    |      |
+|               |       |     |                   |      |                        |      |
+|3LB            |Female |27   | 0.13 ${\pm}$ 0.07 |      | 0.002 ${\pm}$ 0.003    |      |
+|               |Male   |21   | 0.20 ${\pm}$ 0.10 |      | 0.003 ${\pm}$ 0.005    |      |
+|               |       |     |                   |      |                        |      |
+|4LB            |Female |25   | 0.20 ${\pm}$ 0.10 |      | 0.002 ${\pm}$ 0.003    |      |
+|               |Male   |18   | 0.26 ${\pm}$ 0.13 |      | 0.008 ${\pm}$ 0.018    |      |
+|               |       |     |                   |      |                        |      |
+|Russet Burbank |Female |26   | 0.09 ${\pm}$ 0.05 |      | 0.001 ${\pm}$ 0.001    |      |
+|               |Male   |18   | 0.13 ${\pm}$ 0.08 |      | 0.001  ${\pm}$ 0.002   |      |
+
+Least-squares means. Differences among sex $\times$ genotype are indicated by lowercase letters,
+capital letters indicate differences when sex is pooled. 
+Means in the same column which share a letter are
+not significantly different (P \> 0.05)\
+
+
+Table 5: Potato psyllids leaving the leaf surface during 300s no-choice tests on four different genotypes:
+A07781-10LB, A07781-3LB, A07781-4LB and Russet Burbank
+
+|**Genotype$^{\dagger}$**|**Sex**|**N**|**Incidence**      |      |**Duration (s)**                           |      |
+|:----------------------:|:------|:---:|:-----------------:|:----:|:-----------------------------------------:|:----:|
+|10LB                    |Female |21   | 0.03 ${\pm}$ 0.02 |      | 1449.9 ${\pm}$ 2934.1 ${\times}$ $10^{-7}$|      |
+|                        |       |     |                   |      |                                           |**AB**|
+|                        |Male   |25   | 0.05 ${\pm}$ 0.03 |      | 1873.6 ${\pm}$ 3716.9 ${\times}$ $10^{-7}$|      |
+|                        |       |     |                   |      |                                           |      |
+|3LB                     |Female |27   | 0.06 ${\pm}$ 0.03 |      | 2229.5 ${\pm}$ 4272.9 ${\times}$ $10^{-7}$|      |
+|                        |       |     |                   |      |                                           |**B** |
+|                        |Male   |21   | 0.09 ${\pm}$ 0.05 |      | 2881.0 ${\pm}$ 5700.0 ${\times}$ $10^{-7}$|      |
+|                        |       |     |                   |      |                                           |      |
+|4LB                     |Female |25   | 0.05 ${\pm}$ 0.04 |      |     10.6 ${\pm}$ 31.6 ${\times}$ $10^{-7}$|      |
+|                        |       |     |                   |      |                                           |**A** |
+|                        |Male   |18   | 0.08 ${\pm}$ 0.06 |      |     13.7 ${\pm}$ 41.6 ${\times}$ $10^{-7}$|      |
+|                        |       |     |                   |      |                                           |      |
+|Russet Burbank          |Female |26   | 0.03 ${\pm}$ 0.02 |      |      9.1 ${\pm}$ 27.1 ${\times}$ $10^{-7}$|      |
+|                        |       |     |                   |      |                                           |**A** |
+|                        |Male   |18   | 0.05 ${\pm}$ 0.03 |      |     11.7 ${\pm}$ 35.7 ${\times}$ $10^{-7}$|      |
+
+${^\dagger}$ Off-leaf sex $\times$ genotype interactions were unable to be analyzed
+statistically due to low numbers of replicates (n = 20 out of 181).
+
+Least-squares means. Differences among capital letters indicate differences when sex is pooled.
+Means in the same column which share a letter are not significantly different (P \> 0.05)\
+
+
+Table 6: Wald's $\chi^2$ tests comparing psyllid oviposition and fertility among four genotypes:
+A07781-10LB, A07781-3LB, A07781-4LB and Russet Burbank
+
+|                           |          |**Total Eggs**|            |            |**Egg Fertility**|            |
+|---------------------------|----------|:------------:|------------|------------|:---------------:|------------|
+
+|Factors                    |${\chi^2}$|            df|$\Pr>\chi^2$| ${\chi^2}$ |               df|$\Pr>\chi^2$|
+|---------------------------|---------:|:------------:|:-----------|-----------:|:---------------:|:-----------|
+|Genotype                   |0.84      |             3|       0.84 | 0.21       |                3|       0.976|
+|Period                     |70.23     |             3|${0.000^*}$ | 25.60      |                3| ${0.000^*}$|
+|Genotype ${\times}$ Period |51.00     |             9|${0.000^*}$ | 81.93      |                9| ${0.000^*}$|
+
+Table 7 Mean ($\pm$ SEM) egg totals and egg fertility of psyllids on four different genotypes. A mating pair of psyllids was placed on a caged plant for six to eight days after which the male was removed. The remaining female was transferred every four days to a new plant of the same genotype until 12 more days had elapsed.
+
+|**Total Eggs**     |**N** |      **Period 1**|      **Period 2**|      **Period 3**|            **Period 4**|
+|:------------------|:----:|:----------------:|:----------------:|:----------------:|:----------------------:|
+|10LB               |  20  |   6.3 ${\pm}$ 1.5|   7.0 ${\pm}$ 1.7|   9.4 ${\pm}$ 2.3|         3.8 ${\pm}$ 1.0|
+|3LB                |  13  |   4.8 ${\pm}$ 1.4|   9.5 ${\pm}$ 2.8|   9.1 ${\pm}$ 2.7|         4.3 ${\pm}$ 1.3|
+|4LB                |  19  |   8.4 ${\pm}$ 2.0|  10.5 ${\pm}$ 2.6|   8.0 ${\pm}$ 2.0|         6.9 ${\pm}$ 1.8|
+|Russet Burbank     |  14  |   5.8 ${\pm}$ 1.7|   7.6 ${\pm}$ 2.2|   7.0 ${\pm}$ 2.0|         6.6 ${\pm}$ 1.9|
+|                   |      |                  |                  |                  |                        |
+${Overall}^\dagger$ |**66**|   9.5 ${\pm}$ 1.6|  12.5 ${\pm}$ 1.8|  12.5 ${\pm}$ 2.0|         8.2 ${\pm}$ 1.5|
+
+
+|**Percent Fertile**|**N** |      **Period 1**|      **Period 2**|      **Period 3**|            **Period 4**|
+|:------------------|:----:|:----------------:|:----------------:|:----------------:|:----------------------:|
+|10LB               |  20  |68.8 ${\pm}$ 9.2  |59.5 ${\pm}$ 10.9 |61.8 ${\pm}$ 10.7 |   3.2 ${\pm}$ 2.0 **a**|
+|3LB                |  13  |65.9 ${\pm}$ 12.8 |61.0 ${\pm}$ 12.6 |55.7 ${\pm}$ 13.3 | 11.9 ${\pm}$ 6.8 **ab**|
+|4LB                |  19  |62.3 ${\pm}$ 10.5 |64.1 ${\pm}$ 10.1 |49.6 ${\pm}$ 12.2 |29.2 ${\pm}$ 10.4 **bc**|
+|Russet Burbank     |  14  |47.0 ${\pm}$ 13.0 |50.9 ${\pm}$ 12.7 |63.9 ${\pm}$ 11.9 | 70.1 ${\pm}$ 10.9 **c**|
+|                   |      |                  |                  |                  |                        |
+${Overall}^\dagger$ |**66**|66.8 ${\pm}$ 4.2 **a**|68.2 ${\pm}$ 4.0 **ab**| 66.0 ${\pm}$ 5.5 **ab**|43.8 ${\pm}$ 6.2 **b**|
+
+$^\dagger$ Letters represent differences among periods (*P* \> 0.05)
+
+Means in the same column which share a letter are not significantly
+different (*P* \> 0.05)\`
