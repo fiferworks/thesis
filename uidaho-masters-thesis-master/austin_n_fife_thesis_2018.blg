@@ -1,0 +1,15 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'austin_n_fife_thesis_2018.blg'
+[28] biber-MSWIN32:315> INFO - === 
+[58] Biber.pm:371> INFO - Reading 'austin_n_fife_thesis_2018.bcf'
+[167] Biber.pm:889> INFO - Found 107 citekeys in bib section 0
+[181] Biber.pm:4093> INFO - Processing section 0
+[194] Biber.pm:4254> INFO - Looking for bibtex format file 'af_thesis_refs.bib' for section 0
+[208] bibtex.pm:1523> INFO - LaTeX decoding ...
+[489] bibtex.pm:1340> INFO - Found BibTeX data source 'af_thesis_refs.bib'
+[1344] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1344] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1344] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1344] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[1489] bbl.pm:636> INFO - Writing 'austin_n_fife_thesis_2018.bbl' with encoding 'UTF-8'
+[1548] bbl.pm:739> INFO - Output to austin_n_fife_thesis_2018.bbl

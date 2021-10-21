@@ -1,0 +1,24 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\contentsline {chapter}{\scshape Authorization to Submit Thesis}{ii}{Doc-Start}
+\contentsline {chapter}{\scshape Abstract}{iii}{table.caption.1}
+\contentsline {chapter}{\scshape Acknowledgements}{iv}{table.caption.1}
+\contentsline {chapter}{\scshape Dedication}{v}{table.caption.1}
+\contentsline {chapter}{\scshape Table of Contents}{vi}{table.caption.1}
+\contentsline {chapter}{\scshape List of Tables}{vii}{chapter*.2}
+\contentsline {chapter}{\scshape List of Figures}{viii}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Research context}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Materials and methods}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Plant characteristics and living conditions}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}Insect characteristics and living conditions}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Lso Detection}{5}{section.2.3}
+\contentsline {section}{\numberline {2.4}No-choice behavior assays}{7}{section.2.4}
+\contentsline {section}{\numberline {2.5}Oviposition assays}{8}{section.2.5}
+\contentsline {section}{\numberline {2.6}Statistical Analysis}{9}{section.2.6}
+\contentsline {chapter}{\numberline {3}Results}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}No-choice assays}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}Oviposition assays}{12}{section.3.2}
+\contentsline {chapter}{\numberline {4}Discussion}{13}{chapter.4}
+\contentsline {chapter}{\numberline {5}Tables}{17}{chapter.5}
+\contentsline {chapter}{\textsc {References Cited}}{34}{chapter*.20}
+\contentsfinish 
